@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="app.js" defer></script>
+    <script src="textslide.js" defer></script>
+    <title>Studio Design</title>
+  </head>
+  <body>
+    <div class="modal" id="overlay">
+      <div class="modal_content">
+        <form method="GET" id="form">
+          <div class="modal_header">
+            <img
+              src="./images/open mail.png"
+              alt="mail"
+              class="modal_header_image"
+            />
+            <h3>Contact Us</h3>
+          </div>
+          <div class="modal_body">
+            <br />
+            <div class="parent-input">
+              <label for="name">Name: </label>
+              <input type="text" id="name" name="name" />
+              <span class="msg" id="name-msg"></span>
+            </div>
+            <br />
+            <div class="parent-input">
+              <label for="email">Email: </label>
+              <input type="email" id="email" name="email" />
+              <span class="msg" id="email-msg"></span>
+            </div>
+            <br /><br />
+            <div class="parent-input">
+              <textarea for="message">Message: </textarea>
+              <span class="msg" id="message-msg"></span>
+            </div>
+            <br /><br />
+            <button type="submit" class="submit-btn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="header_logo">
+        <img src="./images/A+ Studio.png" alt="logo" />
+      </div>
+      <nav class="header_nav">
+        <ul class="header_list">
+          <li>Home</li>
+          <li>What We Do</li>
+          <li>Service</li>
+          <li>Project</li>
+          <li>Blog</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="first-container">
+      <div class="first-container_text_card">
+        <img
+          src="./images/Dot Ornament.png"
+          alt="dots"
+          class="first-container_text_card_dots_image"
+        />
+        <h1>A Digital Product Agency</h1>
+        <p>
+          Leading digital agency with solid design and development expertise. We
+          build readymade websites, mobile applications, and elaborate online
+          business services.
+        </p>
+        <button class="contact-btn">Contact Now</button>
+      </div>
+      <div class="first-container_image_card">
+        <img
+          src="./images/image 1.png"
+          alt="main"
+          class="first-container_image_card_main_image"
+        />
+        <img
+          src="./images/Ellipse 85.png"
+          alt="ellipse"
+          class="first-container_image_card_ellipse_image"
+        />
+        <img
+          src="./images/Rectangle 23.png"
+          alt="rectangle"
+          class="first-container_image_card_rectangle_image"
+        />
+      </div>
+    </div>
+
+    <div class="second-container">
+      <div class="second-container_text_card">
+        <h2>Our Client</h2>
+        <p>Several selected clients, who already believe in our service.</p>
+      </div>
+
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <!-- Swiper Slides -->
+          <div class="swiper-slide">
+            <img src="./images/airbnb.png" alt="vector" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/colibri1.png" alt="colibri" class="colibri" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/Amazon Logo.png" alt="amazon" class="amazon" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/google.png" alt="google" class="google" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./images/abstract logo.png"
+              alt="abstract"
+              class="abstract"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/uber eats.png" alt="ubereats" class="uber" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="third-container">
+      <div class="third-container_dots_image">
+        <img src="./images/another dots.png" alt="dots" />
+      </div>
+      <div class="third-container_rectangle_image">
+        <img src="./images/big rectangle.png" alt="rectangle" />
+      </div>
+      <div class="third-container_half_image">
+        <img src="./images/half ellipse.png" alt="half" />
+      </div>
+      <div class="third-container_yellow_image">
+        <img src="./images/yellow rectangle.png" alt="yellow" />
+      </div>
+      <div class="third-container_text_card">
+        <h2>How can we help your Business ?</h2>
+        <p>
+          We build readymade websites, mobile applications, and elaborate online
+          business services.
+        </p>
+      </div>
+      <div class="third-container_grid_container">
+        <div class="boxes">
+          <div data-aos="flip-left" class="box-1">
+            <div class="card">
+              <img src="./images/box-search 1.png" alt="template" />
+            </div>
+            <h3>Business Idea Planning</h3>
+            <p>We present you a proposal and discuss niffty-gritty like</p>
+          </div>
+          <div data-aos="flip-left" class="box-2">
+            <div class="card">
+              <img src="./images/empty-wallet 1.png" alt="template" />
+            </div>
+            <h3>Financial Planning System</h3>
+            <p>Protocols apart from aengage models, pricing billing</p>
+          </div>
+        </div>
+        <div class="boxes">
+          <div data-aos="flip-right" class="box-3">
+            <div class="card">
+              <img src="./images/code-1 1.png" alt="template" />
+            </div>
+            <h3>Development Website and App</h3>
+            <p>Communication protocols apart from engagement models</p>
+          </div>
+          <div data-aos="flip-right" class="box-4">
+            <div class="card">
+              <img src="./images/chart-square 1.png" alt="template" />
+            </div>
+            <h3>Market Analysis Project</h3>
+            <p>Protocols apart from aengage models, pricing billing</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fourth-container">
+      <div class="video-card">
+        <img src="./images/yellow circle.png" alt="yellow" />
+        <iframe
+          width="550"
+          height="372"
+          src="https://www.youtube.com/embed/5ouVWbW7SsM?si=GOoudOwq_foM3U2v&autoplay=1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="text-card">
+        <img src="./images/purple rectangle.png" alt="purple" />
+        <h2>Great Digital Product Agency since 2016</h2>
+        <p>
+          Our Business Plan is a written document describing a company's core
+          business activites, Objectives, and how it plans to achieve its goals.
+          Our goal is to provide our client high quality Product with modern
+          idea accordingly their budgets and according thir reuirements.
+        </p>
+      </div>
+    </div>
+
+    <div class="fifth-container">
+      <div class="title">
+        <h1>What our happy client say</h1>
+        <p>Several selected clients, who already believe in our service.</p>
+      </div>
+      <div class="group-container">
+        <div class="big-image">
+          <img src="./images/picture drop.png" alt="image" class="drop-image" />
+          <img src="./images/small dot.png" alt="dots" class="dots" />
+          <img src="./images/half ellipse.png" alt="ellipse" class="ellipse" />
+        </div>
+        <div class="swiperB">
+          <div class="swiper-wrapper">
+            <!-- Swiper Slides -->
+            <div class="swiper-slide">
+              <h4>Matthew Paul</h4>
+              <p>
+                Perfect, very good job! Thank you for the amazing design and
+                work. Really impressed with the high quality and quick
+                turnaround time. Highly recommend.
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <h4>Sophia Brown</h4>
+              <p>
+                Great experience overall. The communication was clear, and the
+                design was delivered flawlessly. Thank you for making the
+                process so easy!
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <h4>Oliver Davis</h4>
+              <p>
+                Fantastic work! The team went above and beyond to deliver a
+                product that was both creative and functional. Highly
+                recommended.
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <h4>Liam White</h4>
+              <p>
+                Superb service with quick responses and creative ideas. The
+                final design perfectly captured my vision. Definitely coming
+                back for future projects.
+              </p>
+            </div>
+          </div>
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="group-image">
+          <img src="./images/Group pics.png" alt="group" class="group" />
+        </div>
+      </div>
+    </div>
+
+    <div class="sixth-container">
+      <img src="./images/square dot.png" alt="dots" class="dots" />
+      <img src="./images/corner.png" alt="corner" class="corner" />
+      <div class="newsletter-container">
+        <img src="./images/blue rectangle.png" alt="blue" class="blue" />
+        <div class="content">
+          <h2>Subscribe Newsletter</h2>
+          <p>I will update good news and promotion service, not spam</p>
+        </div>
+        <div class="input-container">
+          <input
+            type="email"
+            id="email-input"
+            placeholder="Enter your email address..."
+          />
+          <button id="contact-button">Contact Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="last-container">
+      <div class="footer">
+        <div class="media">
+          <img src="./images/A+ Studio.png" alt="logo" class="logo" />
+          <p>
+            Leading digital agency with solid design and development expertise.
+            We build readymade websites, mobile applications, and elaborate
+            online business services.
+          </p>
+        </div>
+        <div class="grid">
+          <div class="box">
+            <h5>What We Do</h5>
+            <a href="#">Web Design </a>
+            <a href="#">App Design</a>
+            <a href="#">Social Media Manage</a>
+            <a href="#">Market Analysis Project</a>
+          </div>
+          <div class="box">
+            <h5>Company</h5>
+            <a href="#">About Us </a>
+            <a href="#">Career</a>
+            <a href="#">Become Investor</a>
+          </div>
+          <div class="box">
+            <h5>Support</h5>
+            <a href="#">FAQ </a>
+            <a href="#">Policy</a>
+            <a href="#">Business</a>
+          </div>
+          <div class="box">
+            <h5>Contact</h5>
+            <a href="#">WhatsApp </a>
+            <a href="#">Support 24</a>
+          </div>
+        </div>
+      </div>
+      <div class="social-logos">
+        <img src="./images/facebook.png" alt="facebook" class="facebook" />
+        <img src="./images/twitter.png" alt="twitter" class="twitter" />
+        <img src="./images/linkedin (1).png" alt="linkedin" class="linkedin" />
+      </div>
+      <div class="copyright">
+        <a href="#">Copyright © 2022 Avi Yansah</a>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- <script>
+      const textSlider = new Swiper(".swiper-container.text-card", {
+        slidesPerView: 1,
+        loop: true,
+        grabCursor: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script> -->
+  </body>
+</html>
