@@ -92,23 +92,6 @@ Studio Design is a modern website showcasing multiple interactive features, incl
 
 ---
 
-## 📈 Future Improvements
-
-1. **Accessibility**:
-   - Add ARIA labels to improve screen reader support.
-2. **Performance Optimization**:
-   - Minify CSS and JavaScript files.
-3. **Dynamic Content**:
-   - Fetch testimonials and logos dynamically from a server or JSON file.
-
----
-
-## 📝 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## Live preview
 
-Click me
+Click me https://danyelasuzy.github.io/Studio-Design/
